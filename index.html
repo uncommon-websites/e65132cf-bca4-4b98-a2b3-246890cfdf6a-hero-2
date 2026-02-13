@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brio Educação Hero Section</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900 antialiased">
+
+    <div class="max-w-[1280px] mx-auto px-6 md:px-8">
+        
+        <!-- Navigation -->
+        <nav class="flex items-center justify-between py-6">
+            <div class="flex items-center gap-2">
+                <!-- Logo Icon -->
+                <div class="text-blue-500">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L14.5 4.5L18 3.5L19 7L22 8.5L20 12L22 15.5L19 17L18 20.5L14.5 19.5L12 22L9.5 19.5L6 20.5L5 17L2 15.5L4 12L2 8.5L5 7L6 3.5L9.5 4.5L12 2Z" />
+                        <circle cx="12" cy="12" r="3" fill="white"/>
+                    </svg>
+                </div>
+                <span class="text-xl font-bold tracking-tight text-gray-900">Brio Educação</span>
+            </div>
+            <div class="flex items-center gap-6">
+                <a href="#" class="text-sm font-medium text-[#475569] hover:text-gray-900">Escolas</a>
+                <a href="#" class="text-sm font-medium bg-gray-200 hover:bg-gray-300 text-gray-900 px-4 py-2 rounded-lg transition-colors">Login</a>
+            </div>
+        </nav>
+
+        <!-- Hero Content -->
+        <div class="mt-16 mb-12 max-w-4xl">
+            <!-- Badge -->
+            <div class="inline-flex items-center gap-2 bg-gray-100 rounded-full px-3 py-1.5 mb-6">
+                <svg class="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <span class="text-sm font-medium text-gray-600">IA e Suporte em Tempo Real</span>
+            </div>
+
+            <!-- Headline -->
+            <h1 class="text-5xl md:text-[4rem] leading-[1.1] font-bold tracking-tight text-gray-900 mb-6">
+                Aprendizado personalizado no ritmo de cada aluno.
+            </h1>
+
+            <!-- Subheadline -->
+            <p class="text-xl text-gray-500 mb-10 max-w-2xl">
+                Caminhos adaptativos por IA e suporte docente em tempo real para transformar sua escola.
+            </p>
+
+            <!-- Email Input Form -->
+            <div class="inline-flex flex-col sm:flex-row items-start sm:items-center bg-gray-100 rounded-[2rem] p-1.5 pr-8 gap-4 max-w-full sm:max-w-xl">
+                <div class="relative w-full sm:w-auto flex-1">
+                    <input type="email" placeholder="E-mail institucional" class="w-full sm:w-72 bg-white text-gray-900 placeholder-gray-500 px-6 py-3.5 rounded-full outline-none shadow-sm focus:ring-2 focus:ring-blue-100 transition-all">
+                    <button class="absolute right-2 top-1/2 -translate-y-1/2 p-2 hover:bg-gray-50 rounded-full transition-colors">
+                        <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="text-xs text-gray-500 font-medium leading-tight px-2 sm:px-0 pb-2 sm:pb-0">
+                    Solicite uma demonstração,<br>Brio Educação para escolas e famílias.
+                </div>
+            </div>
+        </div>
+
+        <!-- App Interface Mockup -->
+        <div class="mt-12 bg-[#F3F4F6] rounded-t-[2.5rem] p-4 pb-0 md:p-6 md:pb-0 overflow-hidden">
+            <div class="bg-white rounded-t-2xl shadow-xl border border-gray-200/60 flex h-[700px] w-full overflow-hidden">
+                
+                <!-- Left Sidebar -->
+                <div class="w-64 flex-shrink-0 border-r border-gray-100 bg-white flex flex-col hidden md:flex">
+                    <div class="p-5">
+                        <!-- Window Controls & Count -->
+                        <div class="flex items-center justify-between mb-8">
+                            <div class="flex gap-1.5">
+                                <div class="w-3 h-3 rounded-full bg-red-400"></div>
+                                <div class="w-3 h-3 rounded-full bg-yellow-400"></div>
+                                <div class="w-3 h-3 rounded-full bg-green-400"></div>
+                            </div>
+                            <span class="text-xs text-gray-400 font-medium">65 mil alunos ativos</span>
+                        </div>
+
+                        <!-- Main Nav -->
+                        <div class="space-y-1 mb-8">
+                            <a href="#" class="flex items-center gap-3 px-2 py-1.5 text-gray-700 hover:bg-gray-50 rounded-md">
+                                <svg class="w-5 h-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"/></svg>
+                                <span class="font-medium text-sm">Home</span>
+                            </a>
+                            <a href="#" class="flex items-center gap-3 px-2 py-1.5 text-gray-600 hover:bg-gray-50 rounded-md">
+                                <svg class="w-5 h-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"/></svg>
+                                <span class="font-medium text-sm">Settings</span>
+                            </a>
+                            <a href="#" class="flex items-center gap-3 px-2 py-1.5 text-gray-600 hover:bg-gray-50 rounded-md">
+                                <svg class="w-5 h-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                <span class="font-medium text-sm">Feedback</span>
+                            </a>
+                        </div>
+
+                        <!-- Agents -->
+                        <div class="mb-8">
+                            <div class="text-xs font-medium text-gray-400 mb-3 px-2">Agents</div>
+                            <div class="flex items-center gap-3 px-2 py-2 bg-gray-50 rounded-lg">
+                                <img src="https://placehold.co/40x40" alt="Neo" class="w-8 h-8 rounded-full object-cover">
+                                <div>
+                                    <div class="text-sm font-semibold text-gray-900">Neo</div>
+                                    <div class="text-xs text-gray-500">Unwinding</div>
+                                </div>
+                                <div class="ml-auto w-2 h-2 bg-gray-300 rounded-full"></div>
+                            </div>
+                            <!-- Color Palette Placeholder -->
+                            <div class="flex gap-1 mt-3 px-2">
+                                <div class="w-5 h-5 rounded-full bg-[#3b82f6]"></div>
+                                <div class="w-5 h-5 rounded-full bg-blue-400"></div>
+                                <div class="w-5 h-5 rounded-full bg-red-300"></div>
+                                <div class="w-5 h-5 rounded-full bg-gray-300"></div>
+                                <div class="w-5 h-5 rounded-full bg-red-400"></div>
+                                <span class="text-xs text-gray-400 ml-1 flex items-center">+3</span>
+                            </div>
+                        </div>
+
+                        <!-- Lists -->
+                        <div>
+                            <div class="text-xs font-medium text-gray-400 mb-2 px-2">Lists</div>
+                            <div class="space-y-1">
+                                <div class="flex items-center justify-between px-2 py-1.5 text-gray-700 hover:bg-gray-50 rounded-md cursor-pointer">
+                                    <div class="flex items-center gap-3">
+                                        <div class="text-blue-500">
+                                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z"/></svg>
+                                        </div>
+                                        <span class="text-sm font-medium">Plataforma B2B</span>
+                                    </div>
+                                    <span class="text-xs text-gray-400">76</span>
+                                </div>
+                                <div class="flex items-center justify-between px-2 py-1.5 text-gray-700 hover:bg-gray-50 rounded-md cursor-pointer">
+                                    <div class="flex items-center gap-3">
+                                        <div class="text-gray-400">
+                                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z"/></svg>
+                                        </div>
+                                        <span class="text-sm font-medium">Trilhas de Estudo</span>
+                                    </div>
+                                    <span class="text-xs text-gray-400">48</span>
+                                </div>
+                                <div class="flex items-center justify-between px-2 py-1.5 text-gray-700 hover:bg-gray-50 rounded-md cursor-pointer">
+                                    <div class="flex items-center gap-3">
+                                        <div class="text-purple-500">
+                                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM11 13a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"/></svg>
+                                        </div>
+                                        <span class="text-sm font-medium">Desempenho IA</span>
+                                    </div>
+                                    <span class="text-xs text-gray-400">29</span>
+                                </div>
+                                <div class="flex items-center justify-between px-2 py-1.5 text-gray-700 hover:bg-gray-50 rounded-md cursor-pointer">
+                                    <div class="flex items-center gap-3">
+                                        <div class="text-gray-600">
+                                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z"/></svg>
+                                        </div>
+                                        <span class="text-sm font-medium">Suporte Docente</span>
+                                    </div>
+                                    <span class="text-xs text-gray-400">21</span>
+                                </div>
+                                <div class="flex items-center justify-between px-2 py-1.5 text-gray-700 hover:bg-gray-50 rounded-md cursor-pointer">
+                                    <div class="flex items-center gap-3">
+                                        <div class="text-orange-500">
+                                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z" clip-rule="evenodd"/></svg>
+                                        </div>
+                                        <span class="text-sm font-medium">Famílias (B2C)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Center Content -->
+                <div class="flex-1 flex flex-col bg-white overflow-hidden relative">
+                    <!-- Timeline Line -->
+                    <div class="absolute left-8 top-0 bottom-0 w-px bg-gray-200 z-0"></div>
+
+                    <!-- Header -->
+                    <div class="h-16 border-b border-gray-100 flex items-center justify-center px-6 z-10 bg-white/90 backdrop-blur-sm sticky top-0">
+                        <div class="flex items-center gap-2 text-gray-500 text-sm font-medium">
+                            <span>Oct 2025</span>
+                            <span class="w-1 h-1 bg-gray-300 rounded-full"></span>
+                            <span class="bg-gray-200 text-gray-600 px-1.5 py-0.5 rounded text-xs">250</span>
+                        </div>
+                        <div class="absolute right-6 flex items-center gap-3">
+                            <div class="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center text-gray-500">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"/></svg>
+                            </div>
+                            <div class="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-white">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Feed Content -->
+                    <div class="flex-1 overflow-y-auto p-6 z-10 hide-scrollbar">
+                        
+                        <!-- Item 1 -->
+                        <div class="flex gap-4 mb-8">
+                            <!-- Timeline Node -->
+                            <div class="w-4 h-4 rounded-full bg-gray-200 border-4 border-white shadow-sm flex-shrink-0 relative z-10 mt-1"></div>
+                            
+                            <div class="flex-1">
+                                <div class="flex items-baseline justify-between mb-2">
+                                    <div class="text-sm text-gray-600 truncate max-w-md">https://brioeduca.com.br/relatorio/progresso-aluno</div>
+                                    <div class="text-xs text-gray-400">7:13 PM Oct 7</div>
+                                </div>
+
+                                <!-- Card -->
+                                <div class="bg-gray-50 rounded-xl overflow-hidden border border-gray-100 mb-4 max-w-lg">
+                                    <div class="relative h-48 bg-gray-200">
+                                        <img src="https://placehold.co/600x300" alt="Scooter Security" class="w-full h-full object-cover">
+                                        <div class="absolute top-3 left-3 bg-black/50 p-1.5 rounded-md">
+                                            <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                                        </div>
+                                    </div>
+                                    <div class="p-4">
+                                        <h3 class="font-semibold text-gray-900 mb-1">Relatório Individual: Evolução em Matemática e Lógica</h3>
+                                        <div class="text-xs text-gray-500">brioeducacional.com.br</div>
+                                    </div>
+                                </div>
+
+                                <!-- Chat Bubble -->
+                                <div class="bg-gray-100 rounded-2xl rounded-tl-none p-4 max-w-lg relative">
+                                    <div class="text-xs text-gray-400 absolute -right-12 top-2">7:13 PM</div>
+                                    <p class="text-sm font-semibold text-gray-800 mb-2">Análise do sistema de IA sobre a turma:</p>
+                                    <p class="text-sm text-gray-700 leading-relaxed mb-3">
+                                        O aluno demonstrou domínio em equações, mas a IA identificou lacunas em geometria analítica. A trilha foi ajustada automaticamente.
+                                    </p>
+                                    <p class="text-xs text-gray-400 leading-relaxed">
+                                        O professor de suporte já foi notificado para realizar uma intervenção pontual e sanar dúvidas recorrentes identificadas pelo sistema.
+                                    </p>
+                                </div>
+                                
+                                <!-- Reply Input Placeholder -->
+                                <div class="flex items-center gap-2 mt-4">
+                                    <div class="w-6 h-6 rounded-full bg-blue-100"></div>
+                                    <div class="text-xs text-gray-400">Neo • 22 hours ago</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Right Sidebar -->
+                <div class="w-80 flex-shrink-0 border-l border-gray-100 bg-gray-50/50 flex flex-col hidden lg:flex">
+                    <div class="p-4 border-b border-gray-100 flex items-center justify-between">
+                        <div class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 20 20"><path d="M2 5a2 2 0 012-2h7a2 2 0 012 2v4a2 2 0 01-2 2H9l-3 3v-3H4a2 2 0 01-2-2V5z"/><path d="M15 7v2a4 4 0 01-4 4H9.828l-1.766 1.767c.28.149.599.233.938.233h2l3 3v-3h2a2 2 0 002-2V9a2 2 0 00-2-2h-1z"/></svg>
+                            <span class="text-sm font-semibold text-gray-700">Gestão Pedagógica</span>
+                        </div>
+                        <button class="p-1 hover:bg-gray-200 rounded">
+                            <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+                        </button>
+                    </div>
+                    
+                    <div class="p-4 overflow-y-auto hide-scrollbar">
+                        <!-- Card 1 -->
+                        <div class="bg-white rounded-xl border border-gray-200 p-4 shadow-sm mb-4">
+                            <div class="flex items-center gap-3 mb-3">
+                                <div class="w-8 h-8 bg-gray-100 rounded-lg flex items-center justify-center">
+                                    <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"></path></svg>
+                                </div>
+                                <div>
+                                    <div class="text-sm font-semibold text-gray-900">Painel Escolar</div>
+                                    <div class="text-xs text-gray-500">Acompanhe o ritmo de cada trilha...</div>
+                                </div>
+                            </div>
+                            <div class="bg-blue-50/50 rounded-lg p-3 border border-blue-100/50 mb-3">
+                                <div class="flex items-center justify-center gap-2 text-blue-600 text-xs font-medium">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                                    Ver relatórios
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Content Block -->
+                        <div class="mb-6">
+                            <div class="flex items-center gap-2 mb-2">
+                                <svg class="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                                <span class="text-xs font-semibold text-gray-500 uppercase tracking-wide">Artifact</span>
+                            </div>
+                            <h3 class="text-lg font-semibold text-gray-800 mb-2">Educação Data-Driven</h3>
+                            <p class="text-sm text-gray-600 leading-relaxed mb-4">
+                                Elimine a sobrecarga dos professores. Nossa IA cria rotas de aprendizado únicas, permitindo que os educadores foquem na mentoria humana e no apoio pedagógico real.
+                            </p>
+                        </div>
+
+                        <!-- Themes -->
+                        <div>
+                            <h4 class="text-sm font-semibold text-gray-500 mb-3">Themes</h4>
+                            <div class="space-y-3">
+                                <div class="flex gap-2">
+                                    <span class="text-xs font-bold text-gray-400 mt-0.5">A.</span>
+                                    <p class="text-sm text-gray-800 leading-snug">
+                                        <span class="font-semibold">Aprendizado Adaptativo:</span>
+                                        <span class="bg-yellow-100 px-1 rounded">educação no ritmo individual</span>
+                                        garantindo progresso constante.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
